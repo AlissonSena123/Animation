@@ -3,49 +3,24 @@
     from{
         width: 50px;
         height: 50px;
+        
     }
     to{
         width: 60px;
-        height: 60px;
+        height: 55px;
         border-radius: 0px;
-        background-color: green;
+        background-color: white;
+        box-shadow: inset -5px 5px 10px rgba(0, 0, 0, 0.404);
+        padding: 5px;
     }
     
 }
-
-@keyframes caixa2 {
-    from{
-        width: 50px;
-        height: 50px;
-    }
-    to{
-        width: 60px;
-        height: 60px;
-        border-radius: 0px;
-        background-color: purple;
-    }
-    
-}
-
-@keyframes caixa3 {
-    from{
-        width: 50px;
-        height: 50px;
-    }
-    to{
-        width: 60px;
-        height: 60px;
-        border-radius: 0px;
-        background-color: orange;
-    }
-    
-}
-
 
 main{
     display: flex;
     justify-content: center;
     align-items: center;
+    padding: 50px;
 }
 
 
@@ -54,8 +29,9 @@ main{
     justify-content: center;
     align-items: center;
     width: 500px;
-    height: 400px;
+    height: 200px;
     background-color: black;
+    padding: 50px;
 }
 
 .caixa{
@@ -73,7 +49,7 @@ main{
     height: 50px;
     background-color: yellow;
     margin-right: 10px;
-    animation: caixa2 1s ease-in-out 0.7s infinite alternate forwards;
+    animation: caixa 1s ease-in-out 0.7s infinite alternate forwards;
 }
 
 .caixa3{
@@ -82,7 +58,33 @@ main{
     height: 50px;
     background-color: blue;
     margin-right: 10px;
-    animation: caixa3 1s ease-in-out 1s infinite alternate forwards;
+    animation: caixa 1s ease-in-out 1s infinite alternate forwards;
+}
+.caixa4{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: green;
+    margin-right: 10px;
+    animation: caixa 1s ease-in-out 1.1s infinite alternate forwards;
+}
+
+.caixa5{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: purple;
+    margin-right: 10px;
+    animation: caixa 1s ease-in-out 1.3s infinite alternate forwards;
+}
+
+.caixa6{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: orange;
+    margin-right: 10px;
+    animation: caixa 1s ease-in-out 1.5s infinite alternate forwards;
 }
 
 
