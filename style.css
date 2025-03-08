@@ -1,0 +1,86 @@
+
+@keyframes caixa {
+    from{
+        width: 50px;
+        height: 50px;
+    }
+    to{
+        width: 60px;
+        height: 60px;
+        border-radius: 0px;
+        background-color: green;
+    }
+    
+}
+
+@keyframes caixa2 {
+    from{
+        width: 50px;
+        height: 50px;
+    }
+    to{
+        width: 60px;
+        height: 60px;
+        border-radius: 0px;
+        background-color: purple;
+    }
+    
+}
+
+@keyframes caixa3 {
+    from{
+        width: 50px;
+        height: 50px;
+    }
+    to{
+        width: 60px;
+        height: 60px;
+        border-radius: 0px;
+        background-color: orange;
+    }
+    
+}
+
+
+
+main{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.caixa{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: red;
+    margin-right: 10px;
+    animation: caixa 1s ease-in-out 0.5s infinite alternate forwards;
+    transition-duration: 0.5s;
+}
+
+.caixa2{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: yellow;
+    margin-right: 10px;
+    animation: caixa2 1s ease-in-out 0.7s infinite alternate forwards;
+    transition-duration: 0.5s;
+}
+
+.caixa3{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    background-color: blue;
+    margin-right: 10px;
+    animation: caixa3 1s ease-in-out 1s infinite alternate forwards;
+    transition-duration: 0.5s;
+    
+}
+
+
+
+
+
