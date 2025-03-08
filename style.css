@@ -42,11 +42,20 @@
 }
 
 
-
 main{
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 400px;
+    background-color: black;
 }
 
 .caixa{
@@ -56,7 +65,6 @@ main{
     background-color: red;
     margin-right: 10px;
     animation: caixa 1s ease-in-out 0.5s infinite alternate forwards;
-    transition-duration: 0.5s;
 }
 
 .caixa2{
@@ -66,7 +74,6 @@ main{
     background-color: yellow;
     margin-right: 10px;
     animation: caixa2 1s ease-in-out 0.7s infinite alternate forwards;
-    transition-duration: 0.5s;
 }
 
 .caixa3{
@@ -76,8 +83,6 @@ main{
     background-color: blue;
     margin-right: 10px;
     animation: caixa3 1s ease-in-out 1s infinite alternate forwards;
-    transition-duration: 0.5s;
-    
 }
 
 
